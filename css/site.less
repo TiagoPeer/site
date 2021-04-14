@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner{
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/The-Evolution-Of-Web-Development.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.nav{
+
+    & .nav-item{
+        color: white;
+        font-size: 1.5rem;
+        transition: all ease 0.4s;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
